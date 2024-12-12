@@ -1,0 +1,63 @@
+header {
+  padding: 20px;
+  background-color: rgb(21, 45, 89);
+}
+
+header > div > h3 {
+  font-size: 17px;
+}
+
+label {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 17vh;
+  font-weight: 100;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #ccc;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 19px;
+  position: relative;
+  top: 20vh;
+}
+
+button {
+  padding: 10px;
+  width: 450px;
+  /* padding: 10px; */
+  border: none;
+  outline: none;
+  position: relative;
+  color: #ccc;
+  top: 30vh;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+main > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 14vh;
+}
+
+* {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
